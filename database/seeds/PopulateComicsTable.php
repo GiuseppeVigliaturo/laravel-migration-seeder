@@ -22,9 +22,9 @@ class PopulateComicsTable extends Seeder
                 'Voto' => $faker->randomNumber
             ];
 
-            $movie = new Comic;
-            $movie->fill($newComicsData);
-            $movie->save();
+            $comic = new Comic;
+            $comic->fill($newComicsData);
+            $comic->save();
         }
     }
 }

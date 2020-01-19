@@ -11,5 +11,7 @@
 |
 */
 
-Route::get('/movies', 'MovieController@index');
-Route::get('/comics', 'ComicsController@index');
+//Route::get('/movies', 'MovieController@index');
+ Route::get('/comics', 'ComicsController@index');
+ Route::resource('/movies', 'MovieControllerAdv');
+
